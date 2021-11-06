@@ -5,4 +5,42 @@
 
 html {
     font-size: 22px;
+    font-family: Helvetica, sans-serif;
+    opacity: 0.9;
+}
+
+body {
+    background-color: black;
+}
+
+header {
+    background-color: black;
+    color: seashell;
+    height: 69px;
+    padding: 10px;
+    width: 100%;
+    position: fixed;
+    border-bottom: 1px solid seashell;
+    display: flex;
+    align-items: center;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+header img {
+    height: 50px;
+    flex: none 1 1;
+}
+
+header #header-space {
+    flex: none 6 0;
+}
+
+header nav {
+    flex: none 2 1;
+}
+
+header nav a {
+    color: seashell;
+    margin: 10px;
 }
