@@ -11,6 +11,7 @@ html {
 
 body {
     background-color: black;
+    line-height: 2rem;
 }
 
 /* Header */
@@ -25,7 +26,7 @@ header {
     display: flex;
     align-items: center;
     flex-flow: row wrap;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 header img {
@@ -51,7 +52,7 @@ header nav a {
     width: 1200px;
     height: 700px;
     background-image: url("../images/img-mission-background.jpg");
-    margin: auto;
+    margin: 0 auto 50px auto;
     display: flex;
     flex-wrap: nowrap;
     justify-content: center;
@@ -64,4 +65,26 @@ header nav a {
     color: seashell;
     text-align: center;
     padding: 20px;
+}
+
+/* Featured Teas */
+#featured-tea {
+    width: 1000px;
+    text-align: center;
+    color: seashell;
+    margin: 0 auto 50px auto;
+}
+
+#tea-types {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    line-height: 1rem;
+}
+
+.tea img {
+    height: 200px;
+    width: 300px;
+    margin: 10px 15px;
 }
