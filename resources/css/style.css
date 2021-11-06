@@ -88,3 +88,33 @@ header nav a {
     width: 300px;
     margin: 10px 15px;
 }
+
+/* Locations */
+#locations {
+    width: 1200px;
+    height: 500px;
+    background-image: url("../images/img-locations-background.jpg");
+    background-repeat: no-repeat;
+    color: seashell;
+    text-align: center;
+    margin: 0 auto 50px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#location-cards {
+    display: flex;
+    justify-content: space-between;
+    width: 980px;
+    margin: auto;
+}
+
+.card {
+    width: 300px;
+    background-color: black;
+    opacity: 1;
+    margin: 15px;
+    padding: 20px;
+    line-height: 2.2rem;
+}
