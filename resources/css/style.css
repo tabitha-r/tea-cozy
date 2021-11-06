@@ -97,7 +97,7 @@ header nav a {
     background-repeat: no-repeat;
     color: seashell;
     text-align: center;
-    margin: 0 auto 50px auto;
+    margin: 0 auto 10px auto;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -117,4 +117,22 @@ header nav a {
     margin: 15px;
     padding: 20px;
     line-height: 2.2rem;
+}
+
+/* Footer */
+footer {
+    color: seashell;
+    opacity: 0.9;
+}
+
+#contact {
+    height: 200px;
+    text-align: center;
+    line-height: 3rem;
+}
+
+#copyright {
+    text-align: left;
+    margin: 20px;
+    line-height: 2rem;
 }
